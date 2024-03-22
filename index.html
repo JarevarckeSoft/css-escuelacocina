@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Cocina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header contenedor">
+        <div class="header__grid">
+            <div class="header__logo">
+                <picture>
+                    <source srcset="build/img/logo.avif" type="image/avif">
+                    <source srcset="build/img/logo.webp" type="image/webp">
+                    <img loading="lazy" src="build/img/logo.svg" alt="logo escuela cocina">
+                </picture>
+            </div>
+
+            <nav class="navegacion">
+                <a href="#" class="navegacion__link">Nosotros</a>
+                <a href="#" class="navegacion__link">Blog</a>
+                <a href="#" class="navegacion__link">Clases</a>
+                <a href="#" class="navegacion__link">Galería</a>
+                <a href="#" class="navegacion__link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bloques">
+        <div class="bloques__grid">
+            <div class="bloque">
+                <div class="bloque__contenido">
+                    <h2 class="bloque__heading">20 Años de experiencia</h2>
+                    <p class="bloque__texto">Nos respaldan, siempre ofertando los mejores cursos para principiantes y expertos</p>
+                </div>
+            </div>
+            <div class="bloque"></div>
+            <div class="bloque">
+                <div class="bloque__contenido">
+                    <h2 class="bloque__heading">Sobre nosotros</h2>
+                    <p class="bloque__texto">Un grupo de expertos, integrado por chef's de los mejores restaurantes de la ciudad</p>
+                </div>
+            </div>
+            <div class="bloque"></div>
+        </div>
+    </section>
+
+    <section class="nosotros contenedor">
+        <h2 class="nosotros__heading">¿Por qué estudiar con nosotros?</h2>
+        <div class="nosotros__grid">
+            <div class="nosotros__bloque">
+                <picture>
+                    <source srcset="build/img/icono_chef.avif" type="image/avif">
+                    <source srcset="build/img/icono_chef.webp" type="image/webp">
+                    <img loading="lazy" class="nosotros__imagen" src="build/img/icono_chef.png" alt="imagen icono">
+                </picture>
+                <h3 class="nosotros__bloque-heading">Chef's Especialistas</h3>
+                <p class="nosotros__bloque-texto">Los mejores chef's que han trabajado en los mejores restaurantes de Europa.</p>
+            </div> <!--.nosotros__bloque-->
+
+            <div class="nosotros__bloque">
+                <picture>
+                    <source srcset="build/img/icono_vino.avif" type="image/avif">
+                    <source srcset="build/img/icono_vino.webp" type="image/webp">
+                    <img loading="lazy" class="nosotros__imagen" src="build/img/icono_vino.png" alt="imagen icono">
+                </picture>
+                <h3 class="nosotros__bloque-heading">Incluye todo sobre Bebidas</h3>
+                <p class="nosotros__bloque-texto">Además de la cocina, incluímos en el programa todo lo relacionado a bebidas.</p>
+            </div> <!--.nosotros__bloque-->
+
+            <div class="nosotros__bloque">
+                <picture>
+                    <source srcset="build/img/icono_menu.avif" type="image/avif">
+                    <source srcset="build/img/icono_menu.webp" type="image/webp">
+                    <img loading="lazy" class="nosotros__imagen" src="build/img/icono_menu.png" alt="imagen icono">
+                </picture>
+                <h3 class="nosotros__bloque-heading">Siempre actualizado</h3>
+                <p class="nosotros__bloque-texto">El Programa se actualiza constantemente con nuevos platillos y técnicas.</p>
+            </div> <!--.nosotros__bloque-->
+        </div>
+    </section>
+
+    <main class="clases">
+        <h2 class="clases__heading">Próximas Clases</h2>
+        <div class="clases__grid contenedor">
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase1.avif" type="image/avif">
+                    <source srcset="build/img/clase1.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase1.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">20 / Mayo / 2024 18:00 Hrs</p>
+                    <p class="clase__precio">$300</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Comida Italiana para Principiantes</h3>
+                    <p class="clase__descripcion">Aprende las bases de la comida italiana con este curso</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase2.avif" type="image/avif">
+                    <source srcset="build/img/clase2.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase2.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">28 / Mayo / 2024 15:00 Hrs</p>
+                    <p class="clase__precio">$450</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Planeación de Menús para Bodas</h3>
+                    <p class="clase__descripcion">Añade la planeación de menús para bodas a tus habilidades</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase3.avif" type="image/avif">
+                    <source srcset="build/img/clase3.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase3.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">04 / Junio / 2024 12:00 Hrs</p>
+                    <p class="clase__precio">$350</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Preparación de Pasteles</h3>
+                    <p class="clase__descripcion">Aprende a preparar deliciosos postres con este curso</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase4.avif" type="image/avif">
+                    <source srcset="build/img/clase4.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase4.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">18 / Junio / 2024 17:00 Hrs</p>
+                    <p class="clase__precio">$500</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Comida Mexicana</h3>
+                    <p class="clase__descripcion">Prepara la mejor comida mexicana con este curso</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase5.avif" type="image/avif">
+                    <source srcset="build/img/clase5.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase5.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">30 / Junio / 2024 18:00 Hrs</p>
+                    <p class="clase__precio">$300</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Comida de Marruecos</h3>
+                    <p class="clase__descripcion">Aprende deliciosas recetas de la comida marroquí</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+
+            <div class="clase">
+                <picture>
+                    <source srcset="build/img/clase6.avif" type="image/avif">
+                    <source srcset="build/img/clase6.webp" type="image/webp">
+                    <img loading="lazy" class="clase__imagen" src="build/img/clase6.jpg" alt="imagen curso">
+                </picture>
+                <div class="clase__meta">
+                    <p class="clase__fecha">02 / Julio / 2024 10:00 Hrs</p>
+                    <p class="clase__precio">$250</p>
+                </div>
+                <div class="clase__contenido">
+                    <h3 class="clase__nombre">Prepara 10 tipos de Ensaladas</h3>
+                    <p class="clase__descripcion">En este curso aprenderás a preparar hasta 10 tipos de ensaladas</p>
+                    <p class="clase__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illo sunt quod temporibus ipsum totam quo nemo maxime eos illum repellendus neque ipsam perspiciatis repellat ipsa at id numquam dolores.</p>
+                    <a href="#" class="clase__enlace">Más Información</a>
+                </div>
+            </div> <!--.clase-->
+        </div>
+    </main>
+
+    <section class="escuela">
+        <h2 class="escuela__heading">¿Quieres ser Chef?</h2>
+        <p class="escuela__texto">Estudia la licenciatura para convertirte en Chef con nosotros</p>
+        <a href="#" class="escuela__enlace">Más Información</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <nav class="navegacion footer__navegacion">
+                <a href="#" class="navegacion__link">Nosotros</a>
+                <a href="#" class="navegacion__link">Blog</a>
+                <a href="#" class="navegacion__link">Clases</a>
+                <a href="#" class="navegacion__link">Galería</a>
+                <a href="#" class="navegacion__link">Contacto</a>
+            </nav>
+            <p class="footer__copyright">&copy; 2024 Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
